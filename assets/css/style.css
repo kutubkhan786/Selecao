@@ -897,10 +897,12 @@ section {
 
 .portfolio .portfolio-item .portfolio-img {
     overflow: hidden;
+    /* border-radius: ; */
 }
 
 .portfolio .portfolio-item .portfolio-img img {
     transition: all 0.8s ease-in-out;
+    /* border-radius: 15%; */
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1127,277 +1129,6 @@ section {
 
 
 /*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-
-.pricing .box {
-    padding: 20px;
-    background: rgba(255, 253, 236, 0.9);
-    text-align: center;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-}
-
-.pricing h3 {
-    font-weight: 400;
-    margin: -20px -20px 25px -20px;
-    padding: 30px 15px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #777777;
-    background: #f8f8f8;
-}
-
-.pricing h4 {
-    font-size: 36px;
-    color: #ef6603;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-    font-size: 20px;
-    top: -15px;
-    left: -3px;
-}
-
-.pricing h4 span {
-    color: #bababa;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.pricing ul {
-    padding: 0;
-    list-style: none;
-    color: #444444;
-    text-align: center;
-    line-height: 20px;
-    font-size: 14px;
-}
-
-.pricing ul li {
-    padding-bottom: 16px;
-}
-
-.pricing ul i {
-    color: #ef6603;
-    font-size: 18px;
-    padding-right: 4px;
-}
-
-.pricing ul .na {
-    color: #ccc;
-    text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-    margin: 20px -20px -20px -20px;
-    padding: 20px 15px;
-    background: #f8f8f8;
-    text-align: center;
-}
-
-.pricing .btn-buy {
-    background: #ef6603;
-    display: inline-block;
-    padding: 8px 35px 10px 35px;
-    border-radius: 50px;
-    color: rgba(255, 253, 236, 0.9);
-    transition: none;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.pricing .btn-buy:hover {
-    background: #fc8129;
-}
-
-.pricing .featured {
-    border: 2px solid #ef6603;
-}
-
-.pricing .featured h3 {
-    color: rgba(255, 253, 236, 0.9);
-    background: #ef6603;
-}
-
-.pricing .advanced {
-    width: 200px;
-    position: absolute;
-    top: 18px;
-    right: -68px;
-    transform: rotate(45deg);
-    z-index: 1;
-    font-size: 14px;
-    padding: 1px 0 3px 0;
-    background: #ef6603;
-    color: rgba(255, 253, 236, 0.9);
-}
-
-
-/*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
-
-.faq {
-    padding: 60px 0;
-}
-
-.faq .faq-list {
-    padding: 0;
-    list-style: none;
-}
-
-.faq .faq-list li {
-    border-bottom: 1px solid #ececf1;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-
-.faq .faq-list .question {
-    display: block;
-    position: relative;
-    font-family: #ef6603;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    padding-left: 25px;
-    cursor: pointer;
-    color: #bd5102;
-    transition: 0.3s;
-}
-
-.faq .faq-list i {
-    font-size: 16px;
-    position: absolute;
-    left: 0;
-    top: -2px;
-}
-
-.faq .faq-list p {
-    margin-bottom: 0;
-    padding: 10px 0 0 25px;
-}
-
-.faq .faq-list .icon-show {
-    display: none;
-}
-
-.faq .faq-list .collapsed {
-    color: black;
-}
-
-.faq .faq-list .collapsed:hover {
-    color: #ef6603;
-}
-
-.faq .faq-list .collapsed .icon-show {
-    display: inline-block;
-    transition: 0.6s;
-}
-
-.faq .faq-list .collapsed .icon-close {
-    display: none;
-    transition: 0.6s;
-}
-
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-
-.team {
-    background: rgba(255, 253, 236, 0.9);
-    padding: 60px 0;
-}
-
-.team .member {
-    margin-bottom: 20px;
-    overflow: hidden;
-    border-radius: 5px;
-    background: rgba(255, 253, 236, 0.9);
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.team .member .member-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.team .member .social {
-    position: absolute;
-    left: 0;
-    bottom: 30px;
-    right: 0;
-    opacity: 0;
-    transition: ease-in-out 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.team .member .social a {
-    transition: color 0.3s;
-    margin: 0 3px;
-    border-radius: 50px;
-    width: 36px;
-    height: 36px;
-    background: rgba(239, 102, 3, 0.8);
-    transition: ease-in-out 0.3s;
-    color: rgba(255, 253, 236, 0.9);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.team .member .social a:hover {
-    background: #fc8129;
-}
-
-.team .member .social i {
-    font-size: 18px;
-    line-height: 0;
-}
-
-.team .member .member-info {
-    padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 18px;
-    color: #2a2c39;
-}
-
-.team .member .member-info span {
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
-    color: #aaaaaa;
-}
-
-.team .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 26px;
-    color: #777777;
-}
-
-.team .member:hover .social {
-    opacity: 1;
-    bottom: 15px;
-}
-
-
-/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 
@@ -1605,60 +1336,350 @@ section {
 # Footer
 --------------------------------------------------------------*/
 
-#footer {
-    background: #14151c;
-    color: rgba(255, 253, 236, 0.9);
-    font-size: 14px;
-    text-align: center;
-    padding: 10px 0;
+.footer-distributed {
+    background: #444;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 50px 60px 40px;
+    overflow: hidden;
 }
 
-#footer h3 {
-    font-size: 36px;
-    font-weight: 700;
-    color: rgba(255, 253, 236, 0.9);
-    position: relative;
-    font-family: "Poppins", sans-serif;
-    padding: 0;
-    margin: 0 0 15px 0;
-}
 
-#footer p {
-    font-size: 15;
-    font-style: italic;
-    padding: 0;
-    margin: 0 0 10px 0;
-}
-
-#footer .social-links {
-    margin: 0 0 10px 0;
-}
-
-#footer .social-links a {
-    font-size: 18px;
+/* section {
+    width: 100%;
     display: inline-block;
-    background: #ef6603;
-    color: rgba(255, 253, 236, 0.9);
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
+    background: #ccc;
+    height: 60vh;
     text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+} */
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: left;
 }
 
-#footer .social-links a:hover {
-    background: #bd5102;
-    color: rgba(255, 253, 236, 0.9);
+
+/* The company logo */
+
+.footer-distributed h3 img {
+    color: #ffffff;
+    font: normal 36px 'Roboto', cursive;
+    margin: 0 0 10px;
+    height: 8vh;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
     text-decoration: none;
+    color: inherit;
 }
 
-#footer .copyright {
-    margin: 0 0 5px 0;
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
 }
 
-#footer .credits {
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+    margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    float: right;
+}
+
+.footer-distributed .footer-right p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #ffffff;
+}
+
+
+/* The contact form */
+
+.footer-distributed form {
+    display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+    width: 400px;
+    padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+    color: #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+    color: #5c666b;
+    opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder {
+    color: #5c666b;
+}
+
+.footer-distributed form input {
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    float: right;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-company-name {
+        font-size: 12px;
+    }
+    .footer-distributed form input,
+    .footer-distributed form textarea {
+        width: 250px;
+    }
+    .footer-distributed form button {
+        padding: 10px 35px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-distributed {
+        padding: 30px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .footer-distributed .footer-left {
+        margin-bottom: 40px;
+    }
+    .footer-distributed form {
+        margin-top: 30px;
+    }
+    .footer-distributed form {
+        display: block;
+    }
+    .footer-distributed form button {
+        float: none;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+.team {
+    background: rgba(255, 253, 236, 0.9);
+    padding: 50px 0;
+    padding-left: 60px;
+}
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: rgba(255, 253, 236, 0.9);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    width: 5px;
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    border-radius: 50px;
+    width: 16px;
+    height: 36px;
+    background: rgba(239, 102, 3, 0.8);
+    transition: ease-in-out 0.3s;
+    color: rgba(255, 253, 236, 0.9);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .member .social a:hover {
+    background: #fc8129;
+}
+
+.team .member .social i {
+    font-size: 18px;
+    line-height: 0;
+}
+
+.team .member .member-info {
+    padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #2a2c39;
+}
+
+.team .member .member-info span {
+    display: block;
     font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.team .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+}
+
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
+
+/* team member css for slider */
+
+#image-ticker {
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+#image-ticker img {
+    width: 200px;
+}
+
+
+/* #ticker-box-1 .container {
+    width: fit-content;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+
+#ticker-box-2  {
+    animation-delay: -60s;
+    display: inline-block;
+    animation: marquee2 60s linear infinite;
+} */
+
+#ticker-box-1 .container1 {
+    width: fit-content;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+    animation-delay: -60s;
+}
+
+#ticker-box-2 .container1 {
+    animation-delay: -60s;
+    width: fit-content;
+    display: inline-block;
+    animation: marquee2 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee2 {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-200%);
+    }
 }
