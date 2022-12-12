@@ -90,7 +90,7 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: rgba(255, 253, 236, 0.9);
+    background: rgba(255, 253, 236);
 }
 
 
@@ -101,7 +101,7 @@ h6 {
 } */
 
 #header.header-scrolled {
-    background: rgba(255, 253, 236, 0.9);
+    background: rgba(255, 253, 236);
 }
 
 #header .logo h1 {
@@ -1668,19 +1668,20 @@ section {
     width: fit-content;
     display: inline-block;
     animation: marquee 10s linear infinite;
-}
+} */
 
-#ticker-box-2  {
+/* #ticker-box-3 .container1{
     animation-delay: -60s;
     display: inline-block;
-    animation: marquee2 60s linear infinite;
+    animation: marquee 10s linear infinite;
+    
 } */
 
 #ticker-box-1 .container1 {
     width: fit-content;
     display: inline-block;
     animation: marquee 10s linear infinite;
-    animation-delay: -60s;
+    animation-delay: -10s;
 }
 
 #ticker-box-2 .container1 {
@@ -1692,10 +1693,10 @@ section {
 
 @keyframes marquee {
     from {
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
 }
 
