@@ -9,14 +9,17 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+
+
 
     <!-- flickity -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Booststarp -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/fk.scss">
 
     <!-- Favicons -->
@@ -24,9 +27,7 @@
     <link href="assets/img/favicon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -68,7 +69,7 @@
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
                     <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="#Career">Career</a></li>
-                    <li><a class="nav-link scrollto" href="#Contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="#cta">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -141,6 +142,51 @@
             </div>
         </div>
 
+    <!-- ======= Head Section ======= -->
+
+
+
+    <section class="home">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-controls">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('./assets/img/slide-1.jpg')"></li>
+                    <li data-target="#carousel" data-slide-to="1" style="background-image:url('./assets/img/slide-2.jpg')"></li>
+                    <li data-target="#carousel" data-slide-to="2" style="background-image:url('./assets/img/slide-3.jpg')"></li>
+
+                </ol>
+                <a class="carousel-control-prev " href="#carousel" role="button" data-slide="prev">
+                    <img src="./assets/img/left-arrow.svg" alt="Prev">
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <img src="./assets/img/right-arrow.svg" alt="Next">
+                </a>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active fade-in-right" style="background-image:url('./assets/img/slide-1.jpg')">
+                    <div class="container">
+                        <h2>I'm Rose</h2>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="carousel-item fade-in-right" style="background-image:url('./assets/img/slide-2.jpg')">
+                    <div class="container">
+                        <h2>I'm Jasmine</h2>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="carousel-item fade-in-right" style="background-image:url('./assets/img/slide-3.jpg')">
+                    <div class="container">
+                        <h2>I'm Ruby</h2>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+
         </div>
     </section>
     <!-- End Hero Section -->
@@ -157,48 +203,29 @@
             <div class="row content" data-aos="fade-up">
                 <div class="col-lg-6">
                     <p>
-                        A3Pixels provides effective web and e-Learning solutions that are easy to implement and use. Our
-                        efforts are directed at consistently building stimulating and state-of-the-art e-Learning
-                        products for our clients that makes online learning a fun and enriching
-                        experience for the users. Over the years, we have perfected the ability to handle unstructured
-                        situations with ease, to give life to ideas and concepts that have never been implemented
-                        before, and to manage a multitude of projects
-                        without slipping on deadlines. In each project that we undertake, we make every effort to
-                        maintain the highest standards of quality and efficiency. A3PIXELS has been profitable in every
-                        quarter and has shown a 100% growth in revenues
+                        A3Pixels provides effective web and e-Learning solutions that are easy to implement and use. Our efforts are directed at consistently building stimulating and state-of-the-art e-Learning products for our clients that makes online learning a fun and enriching
+                        experience for the users. Over the years, we have perfected the ability to handle unstructured situations with ease, to give life to ideas and concepts that have never been implemented before, and to manage a multitude of projects
+                        without slipping on deadlines. In each project that we undertake, we make every effort to maintain the highest standards of quality and efficiency. A3PIXELS has been profitable in every quarter and has shown a 100% growth in revenues
                         in every successive year since inception.
                     </p>
                     <ul>
                         <li>
                             <h4 class="section-title"><b>OUR MISSION:</b></h4>
                         </li>
-                        <li><i class="ri-check-double-line"></i> To provide our customers timely and cost-effective
-                            e-learning solutions </li>
+                        <li><i class="ri-check-double-line"></i> To provide our customers timely and cost-effective e-learning solutions </li>
                         <li><i class="ri-check-double-line"></i> Services aligned to their business goals.</li>
                     </ul>
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0">
                     <h4 class="section-title"><b>WHY CHOOSE US:</b></h4>
                     <p>
-                        At A3Pixels, we believe our business is all about reaching out to people. The e-learning
-                        solutions we create are tools that our clients use to reach out to their various audiences, and
-                        help them expand their understanding of the product, service or organization.
-                        With all the activity that surrounds the business of developing eLearning content, we have
-                        realized the most important element is the relationship we build among our clients, their
-                        audiences and our people.<br><br>Creating
-                        elearning content demands understanding the client's perspective on the topic, the learners '
-                        level of comprehension and knowledge and then setting out to bridge the gap.<br><br> Our
-                        thorough documentation and sharing of our understanding
-                        of the project and deliverables; and them using our expertise in communications, design and
-                        technology to get the message across plays a key role in creating products that work, are
-                        sustainable, scalable and cost-effective.
+                        At A3Pixels, we believe our business is all about reaching out to people. The e-learning solutions we create are tools that our clients use to reach out to their various audiences, and help them expand their understanding of the product, service or organization.
+                        With all the activity that surrounds the business of developing eLearning content, we have realized the most important element is the relationship we build among our clients, their audiences and our people.<br><br>Creating
+                        elearning content demands understanding the client's perspective on the topic, the learners ' level of comprehension and knowledge and then setting out to bridge the gap.<br><br> Our thorough documentation and sharing of our understanding
+                        of the project and deliverables; and them using our expertise in communications, design and technology to get the message across plays a key role in creating products that work, are sustainable, scalable and cost-effective.
                         <br<br>
-                            As a services company, we are result oriented. With technical prowess, effective
-                            communication, commitment and teamwork, our goal is to become an icon in the online digital
-                            industry.<br><br> Having said that; 75% of our business
-                            comes from existing customers. We have grown with our customers and it makes us proud to
-                            state that we have been significant partners in our customers' growth.
-                    </p>
+                            As a services company, we are result oriented. With technical prowess, effective communication, commitment and teamwork, our goal is to become an icon in the online digital industry.<br><br> Having said that; 75% of our business
+                            comes from existing customers. We have grown with our customers and it makes us proud to state that we have been significant partners in our customers' growth. </p>
                 </div>
             </div>
 
@@ -240,26 +267,22 @@
             <div class="tab-content" data-aos="fade-up">
                 <div class="tab-pane active show" id="tab-1">
                     <h4 class="fst-italic">
-                        Good user interface design helps people work more assertively, complete tasks more efficiently
-                        and build brand loyalty at the same time.
+                        Good user interface design helps people work more assertively, complete tasks more efficiently and build brand loyalty at the same time.
                     </h4>
                 </div>
                 <div class="tab-pane" id="tab-2">
                     <h4 class="fst-italic">
-                        We specialize in creating customized learning solutions with latest technical language to
-                        cultivate visually outstanding, animated text, frame and more informative design.
+                        We specialize in creating customized learning solutions with latest technical language to cultivate visually outstanding, animated text, frame and more informative design.
                     </h4>
                 </div>
                 <div class="tab-pane" id="tab-3">
                     <h4 class="fst-italic">
-                        Our experienced & talented professionals analyse the existing website and identify the most
-                        vital content for mobile browser compatibility.
+                        Our experienced & talented professionals analyse the existing website and identify the most vital content for mobile browser compatibility.
                     </h4>
                 </div>
                 <div class="tab-pane" id="tab-4">
                     <h4 class="fst-italic">
-                        Our innovative graphic designers create brochure designs, flyers, business cards, datasheets,
-                        magazines, post cards, booklets, newsletters.
+                        Our innovative graphic designers create brochure designs, flyers, business cards, datasheets, magazines, post cards, booklets, newsletters.
                     </h4>
                 </div>
             </div>
@@ -276,15 +299,28 @@
             <div class="row" data-aos="zoom-out">
                 <div class="col-lg-9 text-center text-lg-start">
                     <h3>Call To Action</h3>
-                    <p> click the button and fill the form if having any query or want to contact us we will reach to
-                        you as soon as we recive your form</p>
+                    <p> click the button and fill the form if having any query or want to contact us we will reach to you as soon as we recive your form</p>
                 </div>
-                <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="">Call To Action</a>
-                </div>
-            </div>
 
-        </div>
+                <!-- <div class="col-lg-3 cta-btn-container text-center">
+                    <a class="cta-btn align-middle" href="">Call To Action</a>
+                </div> -->
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                <div class="parent">
+                    <form class="form">
+                        <label for="name">name</label>
+                        <input id="name" type="text">
+                        <label for="last-name">last name</label>
+                        <input id="last-name" type="text">
+                        <label for="city">city</label>
+                        <input id="city" type="text">
+                    </form>
+                    <div class="open-form">OPEN FORM</div>
+                </div>
+
+
+            </div>
     </section>
     <!-- End Cta Section -->
 
@@ -307,17 +343,10 @@
                         <div class="icon-box" data-aos="zoom-in-left">
                             <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
                             <h4 class="title"><a href="">E-LEARNING DEVELOPEMENT</a></h4>
-                            <p class="description">We have expertise in both: across -the -board -support to serious
-                                e-Learning solutions; and custom e-learning content creation in areas like
-                                Behavioral/Soft Skills, Software Simulation, Standard Operating Procedures, Domain
+                            <p class="description">We have expertise in both: across -the -board -support to serious e-Learning solutions; and custom e-learning content creation in areas like Behavioral/Soft Skills, Software Simulation, Standard Operating Procedures, Domain
                                 <br<br>
-                                    Skills - Sales, Finance, HR, and Operations etc. Product Training, Interactive Game
-                                    Based Approach, Vocational Courses. Our wbt/cbt's are powerful, intuitive,
-                                    self-paced, self-learning tools which impart in-depth know-how to employees in a
-                                    simple and
-                                    lucid style. We integrate audio-visuals to make the content more interesting and the
-                                    learning experience more exciting.
-                            </p>
+                                    Skills - Sales, Finance, HR, and Operations etc. Product Training, Interactive Game Based Approach, Vocational Courses. Our wbt/cbt's are powerful, intuitive, self-paced, self-learning tools which impart in-depth know-how to employees in a simple and
+                                    lucid style. We integrate audio-visuals to make the content more interesting and the learning experience more exciting.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
@@ -326,18 +355,10 @@
                             <h4 class="title"><a href="">TRANSLATION & LOCALIZATION
                                     Read more
                                 </a></h4>
-                            <p class="description">With organizations spread over geographies, content localization is
-                                necessary to the learning industry. We specialize in providing Demographics
-                                Localization, Language Localization and Culture localization. We understand the
-                                challenges you face in training your global workforce. Our translation and localization
-                                solutions can help you create accurate and culturally-relevant translations of content
-                                and training courses. This makes your eLearning
-                                comprehensible across varied cultures in a language that ensures your training programs
-                                are not just accessible but effective as well. We also handle production for English to
-                                Localization in various languages. We help
-                                in production phase to translate the courses by producing Media, XML and HTML text file
-                                into multiple languages. Languages Chinese, Portuguese, French, Latin American Spanish,
-                                Norwegian, German, Russian, Arabic, Dutch,
+                            <p class="description">With organizations spread over geographies, content localization is necessary to the learning industry. We specialize in providing Demographics Localization, Language Localization and Culture localization. We understand the
+                                challenges you face in training your global workforce. Our translation and localization solutions can help you create accurate and culturally-relevant translations of content and training courses. This makes your eLearning
+                                comprehensible across varied cultures in a language that ensures your training programs are not just accessible but effective as well. We also handle production for English to Localization in various languages. We help
+                                in production phase to translate the courses by producing Media, XML and HTML text file into multiple languages. Languages Chinese, Portuguese, French, Latin American Spanish, Norwegian, German, Russian, Arabic, Dutch,
                                 Urdu, Philippines, Thai, Turkish, Hindi, Indonesia</p>
                         </div>
                     </div>
@@ -346,16 +367,14 @@
                         <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
                             <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
                             <h4 class="title"><a href="">WEB & MULTIMEDIA DEVELOPEMENT</a></h4>
-                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur</p>
+                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-5">
                         <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
                             <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
                             <h4 class="title"><a href="">Magni Dolores</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum</p>
+                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
                     </div>
 
@@ -363,16 +382,14 @@
                         <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
                             <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div>
                             <h4 class="title"><a href="">Nemo Enim</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium voluptatum deleniti atque</p>
+                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-5">
                         <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
                             <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
                             <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-                                tempore, cum soluta nobis est eligendi</p>
+                            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
                         </div>
                     </div>
                 </div>
@@ -451,6 +468,7 @@
                                 </div>
                               </div>
 
+
                               <div class="column">
                                 <div class="image-item">
                                   <img src="https://source.unsplash.com/O0N9MF--hK4" alt="" />
@@ -505,6 +523,145 @@
                             </div>
                         </div> -->
 
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Elearning/1_BSLI/bsli1.png" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>BANKING & FINANCE</h4>
+                            <p>E-LEARNING</p>
+                            <a href="assets/img/portfolio/Elearning/1_BSLI/bsli1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Elearning/9_Sp_Jain/spjain.png" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>K-12</h4>
+                            <p>E-LEARNING</p>
+                            <a href="assets/img/portfolio/Elearning/9_Sp_Jain/spjain.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Elearning/10_Vodafone/vodafone.png" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>TELECOM</h4>
+                            <p>E-LEARNING</p>
+                            <a href="assets/img/portfolio/Elearning/10_Vodafone/vodafone.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/work6.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Web 2</h4>
+                            <p>Web</p>
+                            <a href="assets/img/portfolio/work6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/work7.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>App 3</h4>
+                            <p>App</p>
+                            <a href="assets/img/portfolio/work7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/work8.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Card 1</h4>
+                            <p>Card</p>
+                            <a href="assets/img/portfolio/work8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/work9.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Card 3</h4>
+                            <p>Card</p>
+                            <a href="assets/img/portfolio/work9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/work10.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="assets/img/portfolio/work10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/work11.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="assets/img/portfolio/work11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/work12.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="assets/img/portfolio/work12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="/assets/img/portfolio/Multimedia_solution/Godrej/01.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="/assets/img/portfolio/Multimedia_solution/Godrej/01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="/assets/img/portfolio/Multimedia_solution/Godrej/02.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="/assets/img/portfolio/Multimedia_solution/Godrej/02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="/assets/img/portfolio/Multimedia_solution/Godrej/03.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="/assets/img/portfolio/Multimedia_solution/Godrej/03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+
                 </div>
                 </div>
 
@@ -527,10 +684,15 @@
                         <div class='container1'>
                             <div class="ticker-box-2" data-aos="fade-up " data-aos-delay="100 ">
 
+
                                 <img src="assets/img/client/axis-bank.png " class="rounded  custom-shadow " alt=" ">
                                 &nbsp;&nbsp;&nbsp;
                                 <img src="assets/img/client/aptara.png " class="rounded  custom-shadow " alt=" ">
                                 &nbsp;&nbsp;&nbsp;
+
+                                <img src="assets/img/client/axis-bank.png " class="rounded  custom-shadow " alt=" "> &nbsp;&nbsp;&nbsp;
+                                <img src="assets/img/client/aptara.png " class="rounded  custom-shadow " alt=" "> &nbsp;&nbsp;&nbsp;
+
                                 <img src="assets/img/client/bp.png " class="rounded  custom-shadow " alt=" ">
                             </div>
                         </div>
@@ -555,9 +717,7 @@
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>The A3 Pixels team understands
-                                    the work well and then performs with full enthusiasm. Output provided in our project
-                                    was good. Help is extended whenever asked. We
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>The A3 Pixels team understands the work well and then performs with full enthusiasm. Output provided in our project was good. Help is extended whenever asked. We
                                     look forward working with you in future too.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
@@ -571,12 +731,8 @@
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> A terrific team to work with:
-                                    splendid support and excellent work! With your extraordinary efforts, we delivered
-                                    an eLearning program that met nearly all expectations
-                                    and an aggressive deadline. I would like to thank everyone who worked on the
-                                    project. Highly recommend this team and would seek out every opportunity to work
-                                    with you in future.
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> A terrific team to work with: splendid support and excellent work! With your extraordinary efforts, we delivered an eLearning program that met nearly all expectations
+                                    and an aggressive deadline. I would like to thank everyone who worked on the project. Highly recommend this team and would seek out every opportunity to work with you in future.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <h3>ShabbeerZafar, Aptara Inc.</h3>
@@ -588,8 +744,7 @@
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Excellent team, led by a
-                                    well-informed manager.
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Excellent team, led by a well-informed manager.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <h3>Neel Parnaik, Aptara Inc.</h3>
@@ -601,11 +756,8 @@
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> A3 Pixels is a highly
-                                    responsive team. During our interaction, changes or additions were immediately
-                                    implemented either on the same day or the next. On completion
-                                    of the task, we were informed of the same via email by their Admin. Much
-                                    appreciated!
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> A3 Pixels is a highly responsive team. During our interaction, changes or additions were immediately implemented either on the same day or the next. On completion
+                                    of the task, we were informed of the same via email by their Admin. Much appreciated!
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <h3>Roshni Udyavar Yehuda, Rachana Sansad Institute of Environmental Architecture</h3>
@@ -895,37 +1047,11 @@
         <!-- End Team Section -->
 
         <!-- ======= Footer ======= -->
-        <!-- <footer id="footer ">
-        <div class="container ">
-            <h3>A3pixels</h3>
-            <i>CONTACT US Email: sales@a3pixels.com</i>
-            <p></p>
-            <div class="social-links ">
-                <a href="# " class="twitter "><i class="bx bxl-twitter "></i></a>
-                <a href="# " class="facebook "><i class="bx bxl-facebook "></i></a>
-                <a href="# " class="instagram "><i class="bx bxl-instagram "></i></a>
-                <a href="# " class="google-plus "><i class="bx bxl-skype "></i></a>
-                <a href="# " class="linkedin "><i class="bx bxl-linkedin "></i></a>
-            </div>
-            <div class="copyright ">All Rights Reserved @a3pixels.com
-            </div>
-        </div>
-    </footer> -->
-
         <footer class="footer-distributed">
 
             <div class="footer-left">
 
                 <h3><img src="assets/img/logo.png "></h3>
-
-                <p class="footer-links">
-                    <a href="#">Home</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">About</a>
-                    <a href="#">Faq</a>
-                    <a href="#">Contact</a>
-                </p>
 
                 <p class="footer-company-name">Company Name © 2015</p>
 
@@ -941,17 +1067,9 @@
             </div>
 
             <div class="footer-right">
-
-                <p>Contact Us</p>
-
-                <form action="#" method="post">
-
-                    <input type="text" name="email" placeholder="Email">
-                    <textarea name="message" placeholder="Message"></textarea>
-                    <button>Send</button>
-
-                </form>
-
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.2233913121413!2d77.4051603706222!3d28.50292593193056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks!5e0!3m2!1sen!2sin!4v1585040658255!5m2!1sen!2sin"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                </iframe>
             </div>
 
         </footer>
@@ -968,6 +1086,11 @@
         <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
         <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
         <script src="assets/vendor/php-email-form/validate.js "></script>
+        <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+        <!-- Popper JS -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+        <!-- Bootstrap JS -->
+        <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
 
         <!-- Template Main JS File -->
         <script src="assets/js/main.js "></script>
