@@ -1,0 +1,32 @@
+ <div class="container d-flex align-items-center justify-content-between">
+
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <div class='left'>
+
+                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                        <li><a class="nav-link scrollto" href="#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    </div>
+                    <li>
+                        <div class="logo">
+                            <!-- <h1><a href="index.html">A3pixels</a></h1> -->
+                            <!-- Uncomment below if you prefer to use an image logo -->
+                            <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+                        </div>
+                    </li>
+
+                    <div class='right'>
+
+
+                        <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+                        <li><a class="nav-link scrollto" href="https://demo.auburnforest.com/html/bootcamp/bootcamp/index.html">Career</a></li>
+                        <li><a class="nav-link scrollto" href="#cta">Contact</a></li>
+                    </div>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+
+        </div>

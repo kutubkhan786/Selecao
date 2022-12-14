@@ -1,39 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylee.css">
     <title>Card</title>
 </head>
+
 <body>
-    <div class="container">
+    <!-- card sater -->
+    <!-- <div class="container">
         <div class="card">
-            <div class="imgbx" >
+            <div class="imgbx">
                 <img src="team-3.jpg" alt="">
-            </div> 
-        <div class="content">
-            <h2>card</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At numquam velit maiores, doloribus quae architecto error. Incidunt alias blanditiis tempore?</p>
+            </div>
+            <div class="content">
+                <h2>card</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At numquam velit maiores, doloribus quae architecto error. Incidunt alias blanditiis tempore?</p>
             </div>
         </div>
-    </div>
-
-    <div class="container">
+    </div> -->
+    <!-- card end -->
+    <!-- <div class="container">
         <h2 class="heading-text">Responsive <span>image gallery</span></h2>
         <div class="image-gallery">
-          <div class="column">
-            <div class="image-item">
-              <img src="https://source.unsplash.com/VWcPlbHglYc" alt="" />
-              <div class="overlay"><span>Image title</span></div>
+            <div class="column">
+                <div class="image-item">
+                    <img src="https://source.unsplash.com/VWcPlbHglYc" alt="" />
+                    <div class="overlay"><span>Image title</span></div>
+                </div>
+                <div class="image-item">
+                    <img src="https://source.unsplash.com/IdNOTjPeHrE" alt="" />
+                    <div class="overlay"><span>Image title</span></div>
+                </div>
             </div>
-            <div class="image-item">
-              <img src="https://source.unsplash.com/IdNOTjPeHrE" alt="" />
-              <div class="overlay"><span>Image title</span></div>
-            </div>
-          </div>
         </div>
-      </div>
+    </div> -->
+
+    <div class="grid">
+        <div class="grid__item pos-1">
+            <div class="grid__item-img" style="background-image:url(/assets/img/banner.png);"></div>
+        </div>
+        <div class="grid__item pos-2">
+            <div class="grid__item-img" style="background-image:url(/assets/img/favicon.png);"></div>
+        </div>
+        <div class="grid__item pos-3">
+            <div class="grid__item-img" style="background-image:url(/assets/img/logo.png);"></div>
+        </div>
+
+    </div>
+
+
+
+    <style>
+        #div1 {
+            height: 300px;
+            width: 98%;
+            border: 1px solid rgb(102, 13, 13);
+            position: relative;
+        }
+    </style>
+    <div id="div1" onmousemove="getCursorPosition(event)">
+    </div>
+    <div class="cursor-position">The X cursor position is: <span id="cursor-position-x" style='color: red;'></span>. </div>
+    <div class="cursor-position">The Y cursor position is: <span id="cursor-position-y"></span>. </div>
+
+    <script>
+        function getCursorPosition(event) {
+            document.getElementById("cursor-position-x").textContent = event.clientX;
+            document.getElementById("cursor-position-y").textContent = event.clientY;
+        }
+    </script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
