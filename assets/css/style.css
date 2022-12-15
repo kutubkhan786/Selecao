@@ -15,12 +15,12 @@
             }
             
             a {
-                color: #ef6603;
+                color:white;
                 text-decoration: none;
             }
             
             a:hover {
-                color: #fc8129;
+                color: #fdcd00;
                 text-decoration: none;
             }
             
@@ -975,6 +975,12 @@
                 padding: 0px;
                 background-color: grey;
                 border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .container7:hover {
+                transform: scale(1.1);
+                transition:  0.2s ease-in;
             }
             
             h4 {
@@ -982,12 +988,14 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-bottom: 10px;
             }
             
-            b {
+            .b {
                 padding-bottom: 20px;
                 text-decoration: solid;
                 font-size: 2vw;
+                text-align: center;
             }
             
             .container_card .imgbx {
@@ -1009,21 +1017,22 @@
                 width: 8vw;
                 height: 5vh;
                 background: #fff;
-                /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); */
                 align-items: center;
+                border-color: #fdcd00;
                 border-radius: 30px;
                 text-align: center;
                 font-size: 1.3vw;
-                margin-top: 80px;
-                position: absolute;
+                position: fixed;
+                /* margin-bottom: -10px; */
                 visibility: hidden;
             }
             
             .container_card:hover .button1 {
                 visibility: visible;
-                margin-top: 15%;
+                margin-bottom: -10px;
+                position: fixed;
                 transition: 0.5s ease-in-out;
-                background-color: yellow;
+                background-color: #fdcd00;
             }
             
             .imgbx img {
