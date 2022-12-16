@@ -489,10 +489,7 @@ width: auto ;
     /* background-size: 15%; */
       /* padding: 100px; */
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    
     background: url(/assets/img/1.png) 50% 50% / cover no-repeat ;
     /* background-image:url(/assets/img/1.png); */
     
@@ -510,10 +507,10 @@ width: auto ;
     top: 0;
     left: 0;
   }
-  .hover-point:nth-child(2) {
+  /* .hover-point:nth-child(2) {
     top: 0;
     left: calc(100% / 3);
-  }
+  } */
   .hover-point:nth-child(3) {
     top: 0;
     right: 0;
@@ -522,18 +519,18 @@ width: auto ;
     top: calc(100% / 3);
     left: 0;
   }
-  .hover-point:nth-child(5) {
+  /* .hover-point:nth-child(5) {
     top: calc(100% / 3);
     right: 0;
-  }
+  } */
   .hover-point:nth-child(6) {
     bottom: 0;
     left: 0;
   }
-  .hover-point:nth-child(7) {
+  /* .hover-point:nth-child(7) {
     bottom: 0;
     left: calc(100% / 3);
-  }
+  } */
   .hover-point:nth-child(8) {
     bottom: 0;
     right: 0;
@@ -1312,6 +1309,81 @@ width: auto ;
             }
     
         } 
+
+
+        
+.container11 {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 300px;
+}
+
+.container11 .card {
+    position: relative;
+    max-width: 300px;
+    height: 210px;
+    background: #fff;
+    margin: 30px, 10px;
+    padding: 20px, 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container11 .card:hover {
+    height: 420px;
+}
+
+.container11 .card .imgbx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.2);
+}
+
+.container11 .card .imgbx img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container11 .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container11 .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.container11 {
+    padding: 40px 5%;
+}
+
+.heading-text {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.heading-text span {
+    font-weight: 100;
+}
             /* .container_card {
             position: relative;
             width: 100%;
