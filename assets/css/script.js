@@ -69,14 +69,31 @@
 
 // const grid = new Grid(document.querySelector(".grid"));
 
-document.addEventListener("mousemove", parallax);
+// document.addEventListener("mousemove", parallax);
 
-function parallax(event) {
-    this.querySelectorAll(".mouse").forEach((shift) => {
-        const position = shift.getAttribute("value");
-        const x = (window.innerWidth - event.pageX * position) / 90;
-        const y = (window.innerHeight - event.pageY * position) / 90;
+// function parallax(event) {
+//     this.querySelectorAll(".mouse").forEach((shift) => {
+//         const position = shift.getAttribute("value");
+//         const x = (window.innerWidth - event.pageX * position) / 90;
+//         const y = (window.innerHeight - event.pageY * position) / 90;
 
-        shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
-    });
-}
+//         shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+//     });
+// }
+
+// ( function( $ ) {
+
+// 	"use strict";
+
+//   $(".card").tilt({
+//     maxTilt: 15,
+//     perspective: 1400,
+//     easing: "cubic-bezier(.03,.98,.52,.99)",
+//     speed: 1200,
+//     glare: true,
+//     maxGlare: 0.2,
+//     scale: 1.04
+//   });
+  
+// }( jQuery ) );
+
