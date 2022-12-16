@@ -82,7 +82,7 @@
                 height: 80px;
                 /* transition: all 0.5s; */
                 transition: all 0.5s;
-                background: #898989;
+                background: #fdcd00;
                 /* border-radius: 15vh; */
                 /* margin-right: 5vh; */
                 /* margin-left: 5vh; */
@@ -167,6 +167,7 @@
                 align-items: center;
             }
             
+           
             .navbar ul {
                 margin: 0;
                 /* padding: 10vh; */
@@ -174,6 +175,8 @@
                 /* list-style: none; */
                 align-items: center;
             }
+
+            
             
             .navbar li {
                 position: relative;
@@ -186,7 +189,7 @@
                 justify-content: space-between;
                 padding: 5px 30px 7px 15px;
                 margin-left: 0px;
-                font-size: 10px;
+                font-size: 20px;
                 color: rgb(255, 255, 255);
                 white-space: nowrap;
                 transition: 0.3s;
@@ -206,7 +209,7 @@
             .navbar li:hover>a {
                 background: #fdcd00;
             }
-            
+            h
             .navbar .dropdown ul {
                 display: block;
                 position: absolute;
@@ -676,7 +679,7 @@
             }
             
             .section-title {
-                padding-bottom: 40px;
+                padding-bottom: 10px;
             }
             
             .section-title h2 {
@@ -776,6 +779,38 @@
                 color: #898989;
                 text-decoration: none;
             }
+
+            .about .container{
+                width: 1440px;
+                /* height: 914px; */
+                left: 0px;
+                top: 1048px;
+                background: url(/assets/img/banner.png);
+            }
+
+            .aboutimg{
+                max-height: 10vh;
+                width: auto;
+                padding: 16px;
+            }
+
+            .card-horizontal{
+                display: flex;
+                flex: 1 1 auto;
+                align-items: center;
+            }
+
+            .yellow{
+                background-color: #fdcd00;
+                color: black;
+            }
+
+            .grey{
+                background-color: gray;
+                /* color: white; */
+                filter: invert(1);
+            }
+
             /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -974,38 +1009,47 @@
             }
             
             .container7 {
-                max-height: 500px;
-                max-width: 500px;
+                max-height: 60vh;
+                max-width: 70vw;
                 align-items: center;
                 display: flex;
             }
             
             .container_card {
-                position: relative;
-                justify-content: center;
+                height: auto;
+                width: 20vw;
+                
                 align-items: center;
-                flex-wrap: wrap;
-                padding: 0px;
                 background-color: grey;
                 border-radius: 10px;
-                margin-bottom: 10px;
+                
             }
             
-            .container7:hover {
+            .container_card:hover{
                 transform: scale(1.1);
+<<<<<<< HEAD
                 transition: 0.2s ease-in;
+=======
+                transition:  0.2s ease-in;
+
+>>>>>>> 085d1a12f3570d7a3757130be4baf83a9948e195
             }
-            
-            h4 {
+            .container_card p {
                 z-index: 9;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin-bottom: 10px;
+                font-size: smaller;
+                /* background-color: #00ab15; */
+            }
+
+            .container_card p a { 
+                font-size: medium;
+                /* padding: 0 2.5vh 0 2.5vh; */
+                
             }
             
             .b {
-                padding-bottom: 20px;
                 text-decoration: solid;
                 font-size: 2vw;
                 text-align: center;
@@ -1014,10 +1058,11 @@
             .container_card .imgbx {
                 display: flex;
                 position: relative;
-                width: 100%;
-                height: 100%;
-                /* box-shadow: 10px 15px 20px rgb(0, 0, 0.2, 0.2); */
+                width: auto;
+                height: auto;
+              
                 border-radius: 10px;
+                filter: invert(1);
             }
             
             .container_card .imgbx img {
@@ -1030,27 +1075,55 @@
                 width: 8vw;
                 height: 5vh;
                 background: #fff;
-                align-items: center;
+                /* align-items: center; */
                 border-color: #fdcd00;
                 border-radius: 30px;
                 text-align: center;
                 font-size: 1.3vw;
-                position: fixed;
+                position: absolute;
                 /* margin-bottom: -10px; */
                 visibility: hidden;
+                margin-top: auto;
             }
             
             .container_card:hover .button1 {
                 visibility: visible;
-                margin-bottom: -10px;
-                position: fixed;
-                transition: 0.5s ease-in-out;
-                background-color: #fdcd00;
+                transform: scale(1.1);
+                transition:  0.2s ease-in;
             }
             
             .imgbx img {
                 padding: 10% 30% 0% 30%;
             }
+            
+            @media (max-width: 768px) 
+        {
+            .till{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+            }
+            .container7 {
+                margin: auto;
+                padding: auto;
+             
+                background-color:#00ab15;
+            } 
+            .container_card {
+                margin: 10%;
+                padding: auto;
+                height: auto;
+                width: auto;
+                max-height: 100%;
+                max-width: 100%;
+                align-items: center;
+                background-color: grey;
+                border-radius: 10px;
+                
+            }
+    
+        } 
             /* .container_card {
             position: relative;
             width: 100%;
@@ -1155,8 +1228,7 @@
             margin-top: 2vh;
             cursor: pointer;
         }
-        
-        @media (min-width: 768px) {} */
+        */
             /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
