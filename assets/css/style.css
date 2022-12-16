@@ -15,7 +15,7 @@
             }
             
             a {
-                color:white;
+                color: white;
                 text-decoration: none;
             }
             
@@ -262,11 +262,10 @@
                 left: 100%;
                 visibility: visible;
             }
-            
-            @media (min-width: 900px) {
+            /* @media (min-width: 900px) {
                 #header.header-scrolled {
                     border-radius: 10vh;
-                    /* height: 7vh; */
+                  
                     margin-right: auto;
                     margin-left: auto;
                     margin-top: 1.5vh;
@@ -289,10 +288,9 @@
                     margin: auto;
                     max-height: auto;
                 }
-            }
+            } */
             /* desktop responsive navbar code  */
-            
-            @media (min-width: 1200px) {
+            /* @media (min-width: 1200px) {
                 .navbar ul {
                     margin-left: auto;
                     margin-right: auto;
@@ -302,7 +300,7 @@
                 }
                 #header.header-scrolled {
                     border-radius: 10vh;
-                    /* height: 8vh; */
+                    
                     margin-top: 1.5vh;
                     background: #898989;
                 }
@@ -314,9 +312,8 @@
                     flex-direction: column;
                     background-color: #ffffff;
                 }
-            }
-            
-            @media (min-width: 1400px) {
+            } */
+            /* @media (min-width: 1400px) {
                 #header .logo {
                     margin-left: auto;
                     margin-right: auto;
@@ -334,7 +331,7 @@
                 }
                 #header.header-scrolled {
                     border-radius: 10vh;
-                    /* height: 8vh; */
+                
                     margin-top: 1.5vh;
                     background: #898989;
                 }
@@ -346,6 +343,22 @@
                         left: -100%;
                     }
                 }
+            } */
+            
+            .triangle-left {
+                width: 0;
+                height: 0;
+                border-top: 25px solid transparent;
+                border-right: 50px solid #333;
+                border-bottom: 25px solid transparent;
+            }
+            
+            .triangle-right {
+                width: 0;
+                height: 0;
+                border-top: 25px solid transparent;
+                border-left: 50px solid #333;
+                border-bottom: 25px solid transparent;
             }
             /**
 * Mobile Navigation 
@@ -980,7 +993,7 @@
             
             .container7:hover {
                 transform: scale(1.1);
-                transition:  0.2s ease-in;
+                transition: 0.2s ease-in;
             }
             
             h4 {
