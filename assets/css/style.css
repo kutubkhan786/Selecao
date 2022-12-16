@@ -82,7 +82,7 @@
                 height: 80px;
                 /* transition: all 0.5s; */
                 transition: all 0.5s;
-                background: #898989;
+                background: #fdcd00;
                 /* border-radius: 15vh; */
                 /* margin-right: 5vh; */
                 /* margin-left: 5vh; */
@@ -167,6 +167,7 @@
                 align-items: center;
             }
             
+           
             .navbar ul {
                 margin: 0;
                 /* padding: 10vh; */
@@ -174,6 +175,8 @@
                 /* list-style: none; */
                 align-items: center;
             }
+
+            
             
             .navbar li {
                 position: relative;
@@ -186,7 +189,7 @@
                 justify-content: space-between;
                 padding: 5px 30px 7px 15px;
                 margin-left: 0px;
-                font-size: 10px;
+                font-size: 20px;
                 color: rgb(255, 255, 255);
                 white-space: nowrap;
                 transition: 0.3s;
@@ -206,7 +209,7 @@
             .navbar li:hover>a {
                 background: #fdcd00;
             }
-            
+            h
             .navbar .dropdown ul {
                 display: block;
                 position: absolute;
@@ -663,7 +666,7 @@
             }
             
             .section-title {
-                padding-bottom: 40px;
+                padding-bottom: 10px;
             }
             
             .section-title h2 {
@@ -763,6 +766,38 @@
                 color: #898989;
                 text-decoration: none;
             }
+
+            .about .container{
+                width: 1440px;
+                /* height: 914px; */
+                left: 0px;
+                top: 1048px;
+                background: url(/assets/img/banner.png);
+            }
+
+            .aboutimg{
+                max-height: 10vh;
+                width: auto;
+                padding: 16px;
+            }
+
+            .card-horizontal{
+                display: flex;
+                flex: 1 1 auto;
+                align-items: center;
+            }
+
+            .yellow{
+                background-color: #fdcd00;
+                color: black;
+            }
+
+            .grey{
+                background-color: gray;
+                /* color: white; */
+                filter: invert(1);
+            }
+
             /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
